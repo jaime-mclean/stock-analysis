@@ -12,9 +12,9 @@ Stock Market analysis can be simplified if you are looking at annual trends for 
 ---
 ### Analysis of twelve stocks
 
-Green Energy is a rapidly expanding market segment. Not unexpectedly, the valuation of companies in emerging markets can be  volatile. Using the analysis worksheet I have provided, the data show that most companies showed aggressive growth in 2017. All but two of the stocks listed were plagued with losses, significant in some cases. Per this analysis, **ENPH** and **RUN** appear to have sustained growth in 2018 on top of their 2017 growth (see graph below).   [Return by Year](https://github.com/jaime-mclean/stock-analysis/main/Resources/ReturnByYear.png)
+Green Energy is a rapidly expanding market segment. Not unexpectedly, the valuation of companies in emerging markets can be  volatile. Using the analysis worksheet I have provided, the data show that most companies showed aggressive growth in 2017. All but two of the stocks listed were plagued with losses, significant in some cases. Per this analysis, **ENPH** and **RUN** appear to have sustained growth in 2018 on top of their 2017 growth (see graph below).   ![Return by Year](https://github.com/jaime-mclean/stock-analysis/blob/main/Resources/ReturnByYear.png)
 
-Volume for both **ENPH** and **RUN** remained high over both 2017 and 2018, with 2018 seeing higher volumes traded than 2017. The correlation between the volume traded and teh stock price is weak, as some of the poor performing stocks (notably **DQ**) had a higher trading volumes in 2018 (see graph below). [Volume Traded by Year](https://github.com/jaime-mclean/stock-analysis/main/Resources/VolumeTradedByYear.png)
+Volume for both **ENPH** and **RUN** remained high over both 2017 and 2018, with 2018 seeing higher volumes traded than 2017. The correlation between the volume traded and teh stock price is weak, as some of the poor performing stocks (notably **DQ**) had a higher trading volumes in 2018 (see graph below). ![Volume Traded by Year](https://github.com/jaime-mclean/stock-analysis/blob/main/Resources/VolumeTradedByYear.png)
 
 ---
 ### Analysis Worksheet
@@ -62,12 +62,12 @@ The provided worksheet contains an optimized VBA macro that can be used on the e
     Next tickerIndex
 `
 The original code ran slightly slower than the optimized code, as can be seen by the run times provided each time the code is run. The initial code run times shown in the images below indicate that the run times were already quite fast. 
-[2017 initial Run time]
-[2018 initial Run time]
+![2017 initial Run time](Resources/Initial_Analysis_2017.jpg)
+![2018 initial Run time](Resources/Initial_Analysis_2018.jpg)
 
-With the addition of more stocks, the run times could become increasingly long. THe optimized code runs faster by a factor of 10 (or more), and should easily  support additional input. The timers for the optimized code are shown below.
-[2018 refactored run time]
-[2018 refactored run time]
+With the addition of more stocks, the run times could become increasingly long. THe optimized code runs faster by nearly a factor of 10, and should easily support additional input. The timers for the optimized code are shown below.
+![2017 refactored run time](Resources/Refactored_Analysis_2017.jpg)
+![2018 refactored run time](Resources/Refactored_Analysis_2018.jpg)
 
 ---
 ## Summary
