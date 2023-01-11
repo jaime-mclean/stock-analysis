@@ -4,7 +4,7 @@
 ## Project Overview
 
 ---
-Stock Market analysis can be simplified if you are looking at annual trends for a given stock or market segment. The provided worksheet will analyze each stock by year, and will include the total volume traded and the return (as percentage change of the starting price) for each year. This tool can be expanded to other years if desired. Note that sheets for additional years will need to formatted identically to the existing worksheets, with the data sorted by ticker then by date.  Additional stocks can be analyzed, up to the entire market if desired. Be aware that more input will mean onger processing times; however, code optimization should keep the processing times down relative to the initial code. When additional stocks are desired, they can easily be added to the ticker array, and the volume and price arrays can be updated.
+Stock Market analysis can be simplified if you are looking at annual trends for a given stock or market segment. The provided worksheet will analyze each stock by year, and will include the total volume traded and the return (as a percentage change of the starting price) for each year. This tool can be expanded to other years if desired. Note that sheets for additional years will need to formatted identically to the existing worksheets, with the data sorted by ticker then by date.  Additional stocks can be analyzed, up to the entire market if desired. Be aware that more input will mean onger processing times; however, code optimization should keep the processing times down relative to the initial code. When additional stocks are desired, they can easily be added to the ticker array, and the volume and price arrays can be updated.
 
 ---
 ## Results
